@@ -1,1 +1,0 @@
-//first day of namste javascript 

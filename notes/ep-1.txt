@@ -1,0 +1,20 @@
+➤Everything in JS happens inside the execution context.  
+
+➤In the context the first component is memory component and the 2nd one is code component  
+
+➤The memory component in programming is like a storage box that holds all the variables and functions.
+  This collection of key-value pairs is called the Variable Environment.
+
+    For example:
+
+                If you have let x = 5, the key is x and the value is 5.
+                If you have a function greet(), the key is greet and the value is the actual code inside the function.
+
+➤The code component is where your code runs, one line at a time. It's like a worker 
+  that reads and executes each instruction step by step. This process is called the Thread of Execution.
+
+
+➤JavaScript is a synchronous, single-threaded language, which means:
+     Synchronous: It runs one task at a time in the order they appear.
+     It waits for each task to finish before moving to the next one.
+     Single-threaded: It has only one main worker or thread, so it can do only one thing at a time.  
