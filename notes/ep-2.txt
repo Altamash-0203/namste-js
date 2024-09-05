@@ -1,0 +1,49 @@
+When a JavaScript program runs, a global execution context is created. This context is set up in two phases:
+
+i]Memory creation phase - In this phase, JavaScript allocates memory for all variables and functions in your program.
+
+ii]Code execution phase - After memory is allocated, the code is executed, assigning values to variables and running the functions.
+
+    for ex:
+
+
+
+                    var n = 2;
+                    function square(num) {
+                    var ans = num * num;
+                    return ans;
+                    }
+                    var square2 = square(n);
+                    var square4 = square(4);
+
+
+
+                    Step 1: Memory Creation Phase
+                    This is the first step when JavaScript starts running the code.
+
+                     JavaScript first looks at line 1 and sees var n = 2. It creates space in memory for
+                     the variable n but doesn’t assign the value 2 yet. Instead, it stores undefined for now.
+
+                     Then, it moves to line 2, where it sees the function square. JavaScript creates space in memory
+                     for the function square and stores the entire function definition (the code inside the function)
+                      in that memory space.
+
+                     It keeps going through the code and sees var square2 and var square4.
+                     Since these are variables, it also creates memory for them but stores 
+                     undefined for now, just like it did for n.
+
+                    Step 2: Code Execution Phase
+                    Now, JavaScript starts executing the code line by line.
+
+                    Line 1: n = 2. JavaScript assigns the value 2 to the variable n that was previously holding undefined.
+
+                    Line 4: var square2 = square(n);. Here, JavaScript calls the square function, passing n (which is 2). It goes inside the square function:
+
+                    num becomes 2 (because n = 2).
+                    It calculates 2 * 2, which is 4, and stores it in the variable ans.
+                    Then, it returns 4 from the function, so square2 now becomes 4.
+                    Line 5: var square4 = square(4);. JavaScript calls the square function again, but this time with 4.
+
+                    num becomes 4.
+                    It calculates 4 * 4, which is 16, and stores it in ans.
+                    Then, it returns 16, so square4 becomes 16.
