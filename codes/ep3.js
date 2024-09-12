@@ -1,11 +1,11 @@
+//HOISTING IN JAVASCRIPT 
 
-var  x=4
-
-function  gename  ()
+//ex-1
+console.log(x);  // memory is allocated to x but before code execution phase x is pritef so value of x is undefined 
+getname()  
+var x=5
+function getname()
 {
-
-    console.log("hello  js  ");
+    var y=10
+    console.log(y);
 }
-
-gename()
-console.log(x)

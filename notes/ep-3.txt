@@ -1,0 +1,16 @@
+Function Hoisting---->In JavaScript, functions are "hoisted," meaning the entire function is moved to the top in memory before 
+                      the code runs. That's why getName() works even though it's called before the function definition.
+
+
+Variable Hoisting---->Variables declared with var are also hoisted, but they are initialized with undefined in the memory phase. 
+                      So, when you log x before its declaration, it outputs undefined.
+
+
+Execution Phase----> In the execution phase, JavaScript runs the code line by line. By the time it reaches the console.log(x),  
+                     the variable x exists but is still undefined.
+
+
+No Error ----> In other languages, this might throw an error because you can't use something before it's defined,
+               but JavaScript handles this by hoisting both functions and variables.
+
+This behavior is known as hoisting.
