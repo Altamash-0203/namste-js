@@ -8,7 +8,7 @@ var square2 = square(n);
 var square4 = square(4);
 // in code execution phase  the variable value is assigne to that particular variable and fuction values 
 
-// after all execution of code the  functions are poped out from call stack .
+// after all execution of code the  functions are poped out from call stack.
 
 
 
