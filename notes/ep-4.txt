@@ -1,0 +1,38 @@
+var x = 1;
+a();
+b(); 
+properly, as seen in Hoisting.
+console.log(x);
+function a() {
+var x = 10; 
+console.log(x);
+}
+function b() {
+var x = 100;
+console.log(x);
+}
+
+
+Global Execution Context (GEC) is created when the program starts:
+
+x is initialized as undefined.
+Functions a and b are stored in memory with their full definitions.
+x = 1 in the global scope is executed.
+
+Calling a():
+
+A new local Execution Context for a() is created.
+Local variable x inside a is undefined, then set to 10.
+10 is printed.
+The Execution Context for a() is removed after execution.
+
+
+Calling b():
+
+A new local Execution Context for b() is created.
+Local variable x inside b is undefined, then set to 100.
+100 is printed.
+The Execution Context for b() is removed after execution.
+Final step:
+
+Global x (which is 1) is printed.
