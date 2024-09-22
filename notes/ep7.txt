@@ -1,0 +1,18 @@
+1. What is Scope?
+    Scope determines where variables and functions can be used in your code.
+    There are two main types of scope:
+    Global Scope: Variables that can be accessed from anywhere in your code.
+    Local Scope: Variables that are only accessible within a specific function.
+
+2. Lexical Environment:
+    Each function or block has its own Lexical Environment (local memory) where variables are stored.
+    It also has a reference to its parent environment, forming a chain.
+    Lexical Environment = Local memory + Parent reference.
+
+4. Scope Chain:
+    If a function can’t find a variable, it looks in its parent scope, then the global scope.
+    This process is called the scope chain.   
+
+
+
+Key Point:Inner functions can access outer variables, but variables inside a function can’t be accessed from outside.
