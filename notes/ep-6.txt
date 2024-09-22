@@ -1,0 +1,42 @@
+/*
+--->Memory Allocation Phase:
+  In the first phase, JavaScript assigns each variable a placeholder value called undefined.
+
+
+-->What is undefined?
+undefined means memory has been allocated for the variable, but no value has been assigned yet.
+
+
+-->Not Declared = Not Defined:
+If a variable is not declared during memory allocation and you try to access it, you'll get a Not Defined error.
+
+
+--->Difference Between Not Defined and Undefined:
+
+Undefined: Variable is declared but has no value yet.
+Not Defined: Variable is not declared at all.
+
+
+
+
+##Example:##
+
+console.log(x); // undefined (x is declared but no value yet)
+var x = 25;
+console.log(x); // 25 (x now has a value)
+console.log(a); // Uncaught ReferenceError: a is not defined (a is not declared)
+
+
+--->JavaScript is Loosely Typed:
+
+JS does not attach a specific data type to variables.
+You can declare a variable as a number, then later change it to a boolean or string.
+
+
+##Example##
+
+var a = 5;
+a = true; // Now 'a' is a boolean
+a = 'hello'; // Now 'a' is a string
+
+/*
