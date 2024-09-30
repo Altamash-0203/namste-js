@@ -15,7 +15,7 @@ a()
 #on line 8 function a invoked  and local execution is created  inside fuction execute line 5 it search value of b in local memory 
  if b value is not find in local memory it will serch in global memory this is known as lexixal envoirment 
 
-
+K
 */
 
 
