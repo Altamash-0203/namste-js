@@ -1,0 +1,62 @@
+Hoisting with let, const, and var
+
+
+# var:
+
+*Variables declared with var are hoisted and initialized as undefined.
+
+*Accessible through window object in the global scope.
+
+
+
+
+#let:
+
+*Variables declared with let are hoisted, but not initialized immediately.
+
+*In the hoisting stage, let variables are placed in a Temporal Dead Zone (TDZ), and you cannot access them before they are assigned a value.
+
+*Not accessible through the window object in the global scope.
+
+
+
+#const:
+
+*Even stricter than let. Must be initialized during declaration.
+
+*Cannot reassign values to const variables.
+-----------------------------------------------------------------------------
+******Temporal Dead Zone (TDZ):******
+
+The time between when the let variable is hoisted and when it’s assigned a value.
+
+Any reference to the variable in this period throws a ReferenceError.
+
+
+-----------------------------------------------------------------------------
+****Types of Errors:*****
+
+1.ReferenceError:
+*Occurs when trying to access a variable that is in the TDZ or has never been declared.
+
+Example:
+        console.log(a); // ReferenceError: Cannot access 'a' before initialization
+
+
+
+2.SyntaxError:
+*Occurs when the code structure is incorrect, like redeclaring variables with let or const.
+
+Example:
+        let a = 10;
+        let a = 100; // SyntaxError: Identifier 'a' has already been declared
+
+
+
+
+3.TypeError:
+*Occurs when trying to assign a new value to a const variable.
+
+Example:
+        const b = 100;
+        b = 1000; // TypeError: Assignment to constant variable
