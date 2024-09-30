@@ -12,7 +12,7 @@
 //let
 
     console.log(a); // ReferenceError: Cannot access 'a' before initialization
-    let a = 10;
+    // let a = 10;
     console.log(a); // 10
     console.log(window.a); // undefined
 
