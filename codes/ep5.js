@@ -5,7 +5,6 @@ console.log(window.x); // 10
 // this and window both are (this===window)
 
 //----------------------------------------------------------------\\
-
 // Example 1: Global Scope (this refers to window)  
 
 console.log(this); // Refers to the window object in the browser

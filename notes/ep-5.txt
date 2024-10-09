@@ -1,6 +1,5 @@
 5-shortest js program , widoow and this keyword =====>
 
-
 ➤When you run even an empty JavaScript file, a lot is happening behind the scenes. The JavaScript engine creates something called the Global Execution Context (GEC),
  which is the environment where the code will run. This includes memory space and other necessary settings.
 
