@@ -43,7 +43,6 @@ Example:
         console.log(a); // ReferenceError: Cannot access 'a' before initialization
 
 
-
 2.SyntaxError:
 *Occurs when the code structure is incorrect, like redeclaring variables with let or const.
 
