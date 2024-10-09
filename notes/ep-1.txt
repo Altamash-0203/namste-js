@@ -18,3 +18,4 @@
      Synchronous: It runs one task at a time in the order they appear.
      It waits for each task to finish before moving to the next one.
      Single-threaded: It has only one main worker or thread, so it can do only one thing at a time.
+     
