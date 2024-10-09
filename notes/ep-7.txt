@@ -14,5 +14,4 @@
     This process is called the scope chain.   
 
 
-
 Key Point:Inner functions can access outer variables, but variables inside a function can’t be accessed from outside.

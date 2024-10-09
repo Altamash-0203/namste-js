@@ -6,7 +6,6 @@ function a()
 }
 var b=10;
 a()
-
 /*
 #in memory allocation phase memory allocated to function and variable.
 
