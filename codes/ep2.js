@@ -11,4 +11,3 @@ var square4 = square(4);
 // after all execution of code the  functions are poped out from call stack.
 
 
-

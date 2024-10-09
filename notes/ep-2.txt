@@ -7,7 +7,6 @@ ii]Code execution phase - After memory is allocated, the code is executed, assig
     for ex:
 
 
-
                     var n = 2;
                     function square(num) {
                     var ans = num * num;
