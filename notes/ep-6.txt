@@ -18,7 +18,6 @@ Not Defined: Variable is not declared at all.
 
 
 
-
 ##Example:##
 
 console.log(x); // undefined (x is declared but no value yet)
