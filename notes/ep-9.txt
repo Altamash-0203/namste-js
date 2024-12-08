@@ -1,0 +1,41 @@
+* block scope and shoadowing *
+
+the multiple line code wrapped together in culrly bracrs {}
+is called block 
+
+
+
+
+
+#block scope -->
+
+let and const are block scoped so ther are kept in special memory block
+
+once block ends thne block memory disapper and we cant access anymore 
+which means we can only access variables only  inside the block we cant access outside the block
+
+
+
+
+
+#shoadowing--->
+
+#shoadowing with var -
+
+when we declare variable with var then it cant crrate special memory for that insted of it it overwrite in global scope 
+
+
+
+#shoadowing with const and let 
+
+-the let and const are block scoped means wheneven we declare variables they create special memory so the 
+valur of inner and outside variable is diffrent
+
+
+
+
+
+#illegal shoadowing  -->
+
+-
+
