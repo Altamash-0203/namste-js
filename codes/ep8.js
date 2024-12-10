@@ -32,7 +32,7 @@
 console.log(a);
 
 
-let a = 10;
+//let a = 10;
 
 /* ----------------------------------------------------------------*/
 
@@ -48,7 +48,7 @@ let a = 10;
 //2-syntx error
 
    let a=10
-   let a=100   // if we redecaler and let variable then it throws syntax error
+   //let a=100   // if we redecaler and let variable then it throws syntax error
 
 //Type error
 
